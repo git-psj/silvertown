@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391188666782",
+    "project_id": "silvertown-7ed8f",
+    "storage_bucket": "silvertown-7ed8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391188666782:android:a3d9d6743e2e54fc3dde8f",
+        "android_client_info": {
+          "package_name": "com.example.silvertown"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHyLaRqRO-bFVhKUi3DlGuH2ycVsSqw90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

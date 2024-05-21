@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuWeek">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/menu_breakfast2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조식"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/menu_breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="조식"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/menu_lunch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중식"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/menu_lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="중식"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-32dp">
+
+        <TextView
+            android:id="@+id/menu_dinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="석식"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/menu_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="석식"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+</FrameLayout>

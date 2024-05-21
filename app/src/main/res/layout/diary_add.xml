@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=" 일기 작성"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_diarylist"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="저장" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/sd_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="날짜 ex)20231215"
+            android:privateImeOptions="kore"
+            android:inputType="date"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/sd_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="제목을 적으세요."
+            android:privateImeOptions="defaultInputmode=korean"
+            android:inputType="text"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/sd_text"
+            android:layout_width="match_parent"
+            android:layout_height="698dp"
+            android:gravity="top"
+            android:hint="내용을 적으세요."
+            android:inputType="textMultiLine"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

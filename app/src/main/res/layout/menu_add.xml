@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 식단표 추가"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/btn_addmenu"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="추가" />
+
+        <Button
+            android:id="@+id/btn_mmanager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="홈으로" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout8">
+
+        <EditText
+            android:id="@+id/menu_date"
+            android:layout_width="302dp"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:hint="날짜 ex)20231215"
+            android:inputType="date"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/add_breakfast"
+            android:layout_width="297dp"
+            android:layout_height="126dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="아침"
+            android:inputType="textMultiLine"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_lunch"
+            android:layout_width="297dp"
+            android:layout_height="126dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="점심"
+            android:inputType="textMultiLine"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_dinner"
+            android:layout_width="297dp"
+            android:layout_height="126dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="저녁"
+            android:inputType="textMultiLine"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
